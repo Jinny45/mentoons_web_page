@@ -1,0 +1,251 @@
+#slider-container-outer {
+    overflow: hidden;
+}
+
+#slider-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    transition: transform 0.7s ease-in-out;
+}
+
+/* ... (your other carousel styles) */
+
+#content-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content-box {
+    width: calc(33.33% - 20px);
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.carousel-buttons {
+    
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-button {
+    
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+
+
+.card{
+    border-radius: 20px !important;
+}
+
+.card-text{
+    color:white;
+    width: 50vw !important;
+    /* justify-content: center !important;
+    align-content: center !important; */
+    padding: 0vw 2vw !important;
+    margin-right: 20px!;
+    text-align: justify;
+    /* background-image: url(../Images/workshop_asset/workshop_background.png); */
+}
+
+
+.title_img1{
+    border-radius: 20px !important;
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: #d6be48;
+}
+.slide_2{
+    background-color: rgb(86, 160, 160);
+}
+.slide_3{
+    background-color: rgb(141, 141, 203);
+
+}
+
+.title_img1{
+    /* align-content: center !important; */
+    justify-content: center !important;
+    text-align: center;
+    color: white;
+}
+
+.art_div_3{
+    /* justify-content: center !important; */
+    /* align-content: center !important; */
+    /* padding: 0 10vw !important; */
+    /* gap: 10px !important; */
+    /* justify-content: space-between !important; */
+    
+}
+
+#carouselExampleControls{
+    /* justify-content: center !important; */
+    /* align-content: center !important; */
+    width: 90vw !important;
+  
+     /* padding: 20px 0px !important; */
+
+    margin-left: 5vw !important;
+
+}
+
+.card-body_kid{
+    background-image: url(../Images/workshop_asset/workshop_background.png);
+    border-radius: 20px !important;
+
+}
+
+.card-body_teen{
+    background-image: url(../Images/workshop_asset/MENTOONS\ workshop-background_brown.png);
+    border-radius: 20px !important;
+    
+}
+
+.card-body_adult{
+
+    background-image: url(../Images/workshop_asset/MENTOONS\ workshop-background_green.png);
+    border-radius: 20px !important;
+    
+}
+
+.card-title{
+    color: white;
+    
+}
+
+.video_{
+    margin-left: 3vw !important;
+    /* border: black !important ; */
+}
+
+.div_box{
+    margin-left: 30px !important;
+    margin-top: -25px !important;
+    flex-wrap: wrap !important;
+}
+
+.div_box img{
+    padding: 1px 10px !important;
+    width: 70px !important;
+    height: auto !important;
+}
+
+.video_{
+    margin-top: -20px;
+}
+
+.icon_left{
+    margin-bottom: 89vh !important;
+
+}
+
+.icon_right{
+    margin-bottom: 89vh !important;
+
+} 
+
+*******************************************side-pop-up*****************************************
+
+.side-btns{
+    position: absolute;
+    /* background-color: #52b2cf; */
+    top: 90vh;
+    right: -3px;
+}
+
+.side-btn{
+    padding: 10px 20px;
+    /* background-color:#52b2cf; */
+    color: white;
+    border: none;
+    display: block;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    transition: transform 0.2s; /* Adding a transition for smooth effect */
+
+}
+
+.side-btn:hover {
+    transform: translateX(-20px); 
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: #52b2cf;
+    right: -89px
+}
+
+.btn2{
+    background-color: orange;
+}
+
+.btn3{
+    background-color: rgb(23, 195, 123);
+}
+
+.btn4{
+    background-color:#0f8add;
+}
+
+
+.div{
+    margin-top: -55vh !important;
+    margin-left: 95vw !important;
+}
+
+.d-flex{
+    flex-wrap: wrap !important;
+}
+
+
+@media  screen and (max-width:800px) {
+    .video_{
+        margin-top: 0px !important;
+    }
+
+}
+
+@media  screen and (max-width:800px) {
+    .video_{
+        margin-top: 0px !important;
+    }
+    .div_box{
+        display: flex !important;
+    }
+
+}
+
+@media  screen and (max-width:616px){
+    .div_box{
+    margin-top: 20px !important;        
+
+    }
+    .card_text{
+        text-align: center !important;
+    }
+
+}
+
+@media  screen and (max-width:1056px){
+    .div_box{
+        display: flex !important;
+        margin-top: 20px !important;
+    }
+    .card_text{
+        text-align: center !important;
+    }
+}
+
+
+
+
+
+
+
+
